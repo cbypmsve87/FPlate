@@ -3,8 +3,8 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
 	
-	<display-name>SSMWeb</display-name>
-	<description>SSMWeb</description>
+	<display-name>web</display-name>
+	<description>web</description>
 
 	<!-- 配置初始打开的页面 -->
 	<welcome-file-list>
