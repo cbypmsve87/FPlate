@@ -1,5 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE HTML> <!-- 在 HTML 4.01 中有三种 <!DOCTYPE> 声明。在 HTML5 中只有一种：<!DOCTYPE html> -->
 <html lang="zh-CN">
 <head>
 <meta charset="utf-8">
@@ -12,55 +12,53 @@
 	content="深圳万平科技有限公司简称小风车，是一家集工商、法院、教育等行业软件研发和软件外包、大数据、金融服务业务、IT技术培训等业务的科技企业。">
 <meta name="author" content="happy">
 
-<script src="./jsxu/jquery.min.js"></script>
-<script src="./jsxu/bootstrap.js"></script>
-<script src="./jsxu/happy.js"></script>
+
 <link rel="shortcut icon" href="images/favicon.ico">
-<link href="./cssxu/bootstrap.css" rel="stylesheet">
-<link href="./cssxu/happy.css" rel="stylesheet">
+<link href="cssxu/bootstrap.css" rel="stylesheet">
+<link href="cssxu/happy.css" rel="stylesheet">
+<link href="cssxu/kefu.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
   <script src="http://apps.bdimg.com/libs/html5shiv/3.7/html5shiv.min.js"></script>
   <script src="http://apps.bdimg.com/libs/respond.js/1.4.2/respond.js"></script>
 <![endif]-->
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar" data-offset="0">
 	<!-- 头部菜单 -->
-	<header id="header">
-	<div class="container" role="banner">
-		<div id="navbar" class="navbar-default navbar">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse"
-					data-target=".navbar-collapse">
-					<span class="sr-only">切换导航</span> 
-					<span class="icon-bar"></span> 
-					<span class="icon-bar"></span> 
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#main-slider" title="深圳万平科技有限公司"></a>
-			</div>
-			<div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#main-slider">
-					<i class="glyphicon glyphicon-home"></i>&nbsp;网站首页</a></li>
-					<li><a href="#services">服务与支持</a></li>
-					<li><a href="#portfolio">产品展示</a></li>
-					<li><a href="#clientele">客户</a></li>
-					<li><a href="#aboutus">关于我们</a></li>				
-					<li class="dropdown"><a href="#" class="dropdown-toggle"
-						data-toggle="dropdown" role="button" aria-expanded="false"> 
-						<img src="images/logo_msg.png" width="38" height="37" alt=""/>
-					</a>
-					<ul class="dropdown-menu" role="menu">
-						<li><a><img src="images/Quickmark.png"></a></li>
-					</ul>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	</header>
+	<header id="header" >
+    <div class="container" role="banner">
+        <div id="navbar" class="navbar-default navbar" >
+            <div class="navbar-header">
+            	<button type="button" class="navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">切换导航</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/" title="成都小风车科技有限公司"></a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#main-slider"><i class="glyphicon glyphicon-home"></i>&nbsp;网站首页</a></li>
+                    <li><a href="#services">服务与支持</a></li>
+                    <li><a href="#portfolio">产品展示</a></li>
+                    <li><a href="#clientele">客户</a></li>
+                    <li><a href="#aboutus">关于我们</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+                    	<img src="images/logo_msg.png" width="38" height="37"  alt=""/>
+                      </a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a><img src="images/Quickmark.png"></a></li>
+                      </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
 	<!--/#header-->
 			<!-- 幻灯片ppt -->
 			<section id="main-slider" class="carousel">
@@ -172,6 +170,7 @@
 			</div>
 			<!--/.container--> </section>
 			<!--/#services-->
+			
 			<!-- 产品展示 -->
 			<section id="portfolio">
 			<div class="container">
@@ -270,6 +269,7 @@
 			</div>
 			<!--/.container--> </section>
 			<!--/#portfolio-->
+			
 			<!-- 我们的客户 -->
 			<section id="clientele">
 			<div class="container">
@@ -318,6 +318,7 @@
 			</div>
 			<!--/.container--> </section>
 			<!--/#clientele-->
+			
 			<!-- 关于我们 -->
 			<section id="aboutus">
 			<div class="container">
@@ -399,6 +400,11 @@
 			</div>
 			</footer>
 			<!--/#footer-->	
+			
+<script src="jsxu/jquery.min.js"></script>
+<script src="jsxu/bootstrap.js"></script>
+<script src="jsxu/happy.js"></script>
+<script src="jsxu/kefu.js"></script>
 </body>
 </html>
 
